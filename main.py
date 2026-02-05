@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 #----------------------------------------
 
 async def main():
-    bot = Bot(token=config['BOT_TOKEN'])
+    bot = Bot(token=config['BOT']['TOKEN'])
 
     dp = Dispatcher()
 
